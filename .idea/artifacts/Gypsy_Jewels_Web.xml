@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gypsy Jewels:Web">
+    <output-path>$PROJECT_DIR$/out/artifacts/Gypsy_Jewels_Web</output-path>
+    <root id="archive" name="Gypsy Jewels_Web.war">
+      <element id="artifact" artifact-name="Gypsy Jewels:Web exploded" />
+    </root>
+  </artifact>
+</component>

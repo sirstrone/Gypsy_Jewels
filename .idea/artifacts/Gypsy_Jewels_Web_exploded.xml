@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gypsy Jewels:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Gypsy_Jewels_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Gypsy_Jewels/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Gypsy_Jewels" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.40-bin.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/lombok.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/druid-1.0.15.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
